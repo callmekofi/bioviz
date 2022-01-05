@@ -123,15 +123,15 @@ else:
 Slowly but surely, it is plan that the visualizer will become a proper GUI of `biorbd`, allowing for instance to interactively modify a *bioMod* file or to perform biomechanical analyses. For now, there is one muscle analyses panel which is available. 
 
 ### Muscle analyses panel
-By clicking on *Muscles* in the *Analyses* pane, the main window should expand showing a simple muscle analyses panel. In this panel you can select the muscle to plot and the DoF (degree-of-freedom) to run the analyses on. By default, the analyses are perform from $-\pi$ to $\pi$. The vertical bar shows the current position of the model. Changing the position's slider will automatically update the plots of the analyses. 
+The main window should expand by clicking on *Muscles* in the *Analyses* pane, showing a simple muscle analyses panel. In this panel, you can select the muscle to plot and the DoF (degree-of-freedom) to run the analyses. By default, the analyses are performed from $-\pi$ to $\pi$. The vertical bar shows the current position of the model. Changing the position's slider will automatically update the plots of the analyses. 
 
-The *muscle length* plot shows the length of the muscle over the range of the select DoF assuming every other DoFs are constant. 
+The *muscle length* plot shows the length of the muscle over the range of the select DoF, assuming every other DoFs are constant. 
 
-The *moment arm* plot shows the moment arm about the selected DoF over the range of the selected DoF assuming every other DoFs are constant.
+The *moment arm* plot shows the moment arm about the selected DoF over the range of the chosen DoF, assuming every other DoFs are constant.
 
-The *passive forces* plot shows the forces of the passive element of the muscle (assuming there are passive elements) over  the range of the selected DoF assuming every other DoFs are constant.
+The *passive forces* plot shows the forces of the passive element of the muscle (assuming there are passive elements) over the range of the selected DoF, assuming every other DoFs are constant.
 
-Finally, the *active forces* plot shows the forces of the active element of the muscle (assuming there as active elements) over  the range of the selected DoF assuming every other DoFs are constant. Just next to the plot, there is a slider that activate the muscle (from 0% to 100% activation).
+Finally, the *active forces* plot shows the forces of the active element of the muscle (assuming there as active elements) over the range of the selected DoF, assuming every other DoFs are constant. Next to the plot, a slider activates the muscle (from 0% to 100% activation).
 
 # How to contribute
 
